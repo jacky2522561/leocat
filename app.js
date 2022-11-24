@@ -38,6 +38,6 @@ scene.on('update',e=>{
 });
 
 setInterval(()=>{
-    delay += (scrollpos - delay) * accelamount;
-    video.currentTime = delay;
+    // delay += (scrollpos - delay) * accelamount;
+    video.currentTime = scrollpos;
 },38);
